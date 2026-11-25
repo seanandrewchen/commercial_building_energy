@@ -1,0 +1,11 @@
+# Data stay local (public CBECS download; see README)
+data/
+
+# HTML exports duplicate the notebooks
+notebooks/*.html
+
+# Archives and Dropbox conflict copies
+*.zip
+*conflicted copy*
+
+.ipynb_checkpoints/
